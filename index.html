@@ -4,12 +4,31 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Glassrockers is mobile rock chip and windshield crack repair serving Weber, Davis, and Box Elder counties." />
+    <meta name="theme-color" content="#0b2039" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Glassrockers" />
+    <meta property="og:url" content="https://glassrockers.netlify.app/" />
+    <meta property="og:title" content="Glassrockers | Mobile Rock Chip Repair" />
+    <meta property="og:description" content="Fast, friendly mobile windshield chip repair across Weber, Davis, and Box Elder counties." />
+    <meta property="og:image" content="https://glassrockers.netlify.app/assets/og-glassrockers.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="A close-up of a windshield rock chip against a blue sky." />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Glassrockers | Mobile Rock Chip Repair" />
+    <meta name="twitter:description" content="Mobile windshield chip repair serving Northern Utah." />
+    <meta name="twitter:image" content="https://glassrockers.netlify.app/assets/og-glassrockers.png" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet" />
     <title>Glassrockers | Mobile Rock Chip Repair</title>
     <style>
       :root { --sky:#78c9f4; --ink:#183049; --navy:#0b2039; --sun:#ffd54f; --paper:#f8fcff; --line:#d8eaf4; }
       * { box-sizing: border-box; }
       html { scroll-behavior: smooth; }
-      body { margin:0; color:var(--ink); font: 16px/1.55 Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background:var(--paper); }
+      body { margin:0; color:var(--ink); font: 16px/1.55 Manrope, Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background:var(--paper); }
       a { color:inherit; }
       .wrap { width:min(1120px, calc(100% - 40px)); margin:auto; }
       .eyebrow { margin:0 0 11px; color:#396887; font-size:.78rem; font-weight:800; letter-spacing:.14em; text-transform:uppercase; }
@@ -19,14 +38,14 @@
       .btn-outline { color:#fff; border:1px solid rgba(255,255,255,.6); }
       header { position:absolute; top:0; inset-inline:0; z-index:2; color:white; }
       nav { display:flex; justify-content:space-between; align-items:center; min-height:79px; }
-      .brand { display:flex; align-items:center; gap:.65rem; font-weight:950; font-size:1.16rem; letter-spacing:-.04em; text-decoration:none; }
+      .brand { display:flex; align-items:center; gap:.65rem; font-family:"Space Grotesk",Manrope,sans-serif; font-weight:700; font-size:1.16rem; letter-spacing:-.04em; text-decoration:none; }
       .brand-mark { position:relative; display:grid; place-items:center; width:33px; height:33px; border:2px solid white; border-radius:50%; font-size:1rem; }
       .navlinks { display:flex; align-items:center; gap:1.25rem; font-size:.91rem; font-weight:700; }
       .navlinks a { text-decoration:none; }
       .hero { position:relative; overflow:hidden; min-height:680px; color:white; background:linear-gradient(125deg,#143e63 0%,#1b6694 47%,#79c7ee 100%); }
       .hero:before { content:""; position:absolute; inset:0; background:linear-gradient(90deg,rgba(7,27,47,.63),rgba(7,27,47,.17)), radial-gradient(circle at 89% 10%,rgba(255,255,255,.5) 0 1px,transparent 2px); background-size:auto,20px 20px; }
       .hero-content { position:relative; padding:172px 0 105px; max-width:690px; }
-      .hero h1 { max-width:680px; margin:0; font-size:clamp(3.15rem,7vw,6.45rem); line-height:.93; letter-spacing:-.075em; font-weight:950; }
+      .hero h1 { max-width:680px; margin:0; font-family:"Space Grotesk",Manrope,sans-serif; font-size:clamp(3.15rem,7vw,6.45rem); line-height:.93; letter-spacing:-.075em; font-weight:700; }
       .hero h1 span { color:var(--sun); }
       .hero p { max-width:580px; margin:25px 0 31px; color:#e7f6ff; font-size:clamp(1.05rem,2.2vw,1.25rem); }
       .actions { display:flex; flex-wrap:wrap; gap:.8rem; }
@@ -43,7 +62,7 @@
       .trust-item span { display:block; color:#5e788a; font-size:.9rem; }
       section { padding:98px 0; }
       .intro { display:grid; grid-template-columns:1fr 1.1fr; gap:80px; align-items:center; }
-      h2 { margin:0; color:#153e5c; font-size:clamp(2rem,4vw,3.15rem); line-height:1.03; letter-spacing:-.055em; }
+      h2 { margin:0; color:#153e5c; font-family:"Space Grotesk",Manrope,sans-serif; font-size:clamp(2rem,4vw,3.15rem); line-height:1.03; letter-spacing:-.055em; }
       .intro p { margin:0; color:#557083; font-size:1.08rem; }
       .checklist { display:grid; gap:15px; margin:27px 0 0; padding:0; list-style:none; font-weight:700; }
       .checklist li { display:flex; gap:11px; align-items:flex-start; }
